@@ -151,3 +151,33 @@ function agregarTabla() {
     tabla.innerHTML = datos;
 }
 agregarTabla();
+
+/************ */
+function mostrar(variable){
+
+        alert ( " son divertidas las historias"+ variable)
+    
+     
+    
+     }  
+    
+     var btn = document.getElementById("enter")
+    
+     btn.onclick = mostrar("hola")  // SE EJECUTA SOLO CUANDO CARGA LA PAGINA , Y DESPUES NO FUNCIONA 
+    
+     
+    
+     
+    
+       function mostrar(){
+    
+        alert ( " son divertidas las historias" )
+    
+     
+    
+     }  
+    
+     var btn = document.getElementById("enter")
+    
+     btn.onclick = mostrar  // SIN VARIABLE , NI PARENTESIS , FUNCIONA OK
+    
